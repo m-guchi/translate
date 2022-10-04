@@ -8,5 +8,27 @@ article{
 }
 
 .textarea{
+    height: calc(100vh - 10rem);
+    width: calc(100% - 6px);
+}
+
+#btn-translate{
+    background-color: #3869c4;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0.3rem 0;
+    padding: 0.4rem 0;
+    text-align: center;
     width: 100%;
+}
+
+#btn-translate:hover{
+    background-color: #5c84cf;
+    cursor: pointer;
+}
+
+#chk-auto{
+    text-align: center;
 }

@@ -1,13 +1,24 @@
 $(function(){
+
     $("#ja-textarea").on('keyup paste', function() {
         if($("#autoTranslate").prop("checked")){
             translate();
         }
     });
 
+
+    $("#ja-textarea").keydown(function(e) {
+        if(e.altKey){
+            if(e.code==="Enter"){
+                translate();
+            }
+        }
+    })
+
     $("#btn-translate").on("click", function() {
         translate();
     })
+
 });
 
 function translate(){
