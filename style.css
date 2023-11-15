@@ -8,7 +8,7 @@ article{
 }
 
 .textarea{
-    height: calc(100vh - 10rem);
+    height: calc(100vh - 11rem);
     width: calc(100% - 6px);
 }
 
@@ -19,7 +19,7 @@ article{
     font-size: 1.2em;
     font-weight: bold;
     margin: 0.3rem 0;
-    padding: 0.4rem 0;
+    padding: 1.4rem 0;
     text-align: center;
     width: 100%;
 }
