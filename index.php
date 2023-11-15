@@ -1,3 +1,5 @@
+<?php include_once("/home/guchi/app/auth/check.php"); $check = new Check(); $check->access("translate"); ?>
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -12,9 +14,9 @@
 <body>
     <article>
         <textarea name="" id="ja-textarea" cols="30" rows="10" class="textarea" autofocus></textarea>
-        <div id="btn-translate">翻訳する</div>
+        <div id="btn-translate">翻訳する (Ctrl+Enter)</div>
         <div id="chk-auto">
-            <label><input type="checkbox" name="" id="autoTranslate" checked>入力時に自動的に翻訳</label>
+            <label><input type="checkbox" name="" id="autoTranslate" checked>入力時に自動で翻訳 (Ctrl+Bで切り替え)</label>
         </div>
     </article>
 </body>
